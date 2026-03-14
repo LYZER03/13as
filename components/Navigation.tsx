@@ -91,7 +91,7 @@ export default function Navigation() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
-              className="fixed inset-0 bg-black z-40 flex flex-col items-center justify-center gap-8"
+              className="fixed inset-0 bg-black z-40 flex flex-col items-center justify-center gap-8 pointer-events-auto"
             >
               {links.map((link, i) => (
                 <motion.div
